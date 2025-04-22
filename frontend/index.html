@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Generador Papercraft Minecraft</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loader" id="loader">Generando mundo...</div>
+  <div id="container" style="display: none;">
+    <h1>Generador Papercraft Minecraft</h1>
+    <form id="uploadForm">
+      <input type="file" id="skinInput" accept=".png" required />
+      <label><input type="checkbox" id="foldLines" /> Añadir líneas de doblado</label>
+      <button type="submit">Generar plantilla</button>
+    </form>
+    <div id="preview">
+      <canvas id="canvas2D"></canvas>
+      <div id="render3D"></div>
+    </div>
+    <div id="downloads">
+      <button id="downloadPNG">Descargar PNG</button>
+      <button id="downloadPDF">Descargar PDF</button>
+    </div>
+    <footer>Realizado por Adriel Orihuela</footer>
+  </div>
+  <script src="https://unpkg.com/skinview3d"></script>
+  <script src="script.js"></script>
+</body>
+</html>
