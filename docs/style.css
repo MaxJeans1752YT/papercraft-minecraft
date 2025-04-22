@@ -1,0 +1,22 @@
+
+body {
+  background-image: url('assets/fondo.png');
+  font-family: 'Minecraftia', sans-serif;
+  color: white;
+  padding: 20px;
+}
+button {
+  background-color: #5E7C16;
+  border: 2px solid #3C5210;
+  color: white;
+  padding: 10px;
+  font-family: 'Minecraftia';
+  cursor: pointer;
+}
+button:hover {
+  background-color: #4C6E10;
+}
+footer {
+  margin-top: 50px;
+  text-align: center;
+}
