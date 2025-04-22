@@ -1,0 +1,1 @@
+# Aquí va tu función create_template_with_tabs() en Python
