@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     formData.append('skin', file);
     formData.append('fold_lines', foldLines.checked);
 
-    const res = await fetch('https://your-api-url.onrender.com/generar_plantilla/', {
+    const res = await fetch('https://papercraft-backend.onrender.com', {
       method: 'POST',
       body: formData
     });
